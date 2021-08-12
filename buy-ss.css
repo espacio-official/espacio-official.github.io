@@ -22,12 +22,22 @@ html {
   }
 
   nav {
-    background-color: transparent;
+
     width: 100%;
     padding: 0px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
+    }
+  .nav-transparent{
+    background-color: transparent;
+
+
   }
+  .nav-colored{
+    background-color: black;
+
+  }
+
 
   .nav-logo {
     text-align: left;
@@ -35,11 +45,14 @@ html {
     padding: 30px;
     padding-left: 50px;
     font-size: 28px;
+    padding-top: 0px;
   }
 
   .nav-tabs {
     text-align: center;
     padding: 240px;
+    padding-left: 160px;
+  
   }
 
   .nav-link {
@@ -63,6 +76,7 @@ html {
     transition-delay: 0.15s;
     transition-duration: 0.15s;
   }
+
 
   .cover-heading {
     text-align: center;
