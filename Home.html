@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel = "icon" type = "image/png" href = "logo2.png">
+  <title>espacio</title>
+  <link rel="stylesheet" href="Home-SS.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <style>
+    
+  </style>
+
+  <link href="Home-SS.css" type="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body  onload="myFunction()">
+  <div id="loading"></div>
+  <a id="nav"></a>
+  <a id="home"></a>
+  <nav class="" id="mynav">
+    <span class="nav-logo"><img src="logoweb1.png" width="210px" height="65px"></span>
+    <span class="nav-tabs">
+      <a href="#home" class="nav-link">HOME</a>
+      <a href="#aboutus" class="nav-link">ABOUT US</a>
+      <a href="#services" class="nav-link">SERVICES</a>
+      <a href="#contactus" class="nav-link">CONTACT US</a>
+    </span>
+    <span>
+      <button class="nav-btn" onclick="window.location.href ='index.html';">BUY NOW</button>
+    </span>
+  </nav>
+
+  <div class="cover-heading">
+    <br>
+    <h1>espacio</h1>
+    <FONT color="white" size="5">Conquering aspirations and the universe </font>
+  </div>
+  <br><br><br><br><br>
+  <div class="ab1">
+    <a id="aboutus"></a>
+    <center>
+      <b>
+        <font style="font-size: 60px;">About Us</font>
+      </b>
+      <hr width="45%" align="center" color="black">
+      </hr>
+    </center>
+    <br>
+    <p style="font-size: 23px; text-align: left;font-family: century gothic;">We are coders, scholars , graphic
+      designers and a bunch of space
+      nerds .
+      <br>
+      <font style="font-size: 30px;">Since 2021,</font>
+      <br>
+      We have an immense experience in the field if pioneering , building prototypes and funding space
+      exploration
+      <br><br>
+      <b>When:-</b> pleased to share that we expanded our plants over 9 counties across 3 continents during
+      our 50 years of existence .
+      <br>
+      <b>Why:-</b> the eagerness to colonise the universe made us push our limits and create this label
+      <br>
+      <b>How:-</b> through mammoth experimentations and ideation we created a prototype to aid and assist
+      human survival in extraterrestrial atmosphere.
+    </p>
+    
+  </div>
+
+  <div class="parallax"></div>
+
+  <div class="ab2">
+    <center>
+      <font style="font-size: 60px;">Why Us ?</font>
+      <hr width="45%" align="center" color="lightgrey">
+      </hr>
+    </center>
+    <br>
+    <p style="font-size: 23px; text-align: left;font-family: century gothic;">This article is gonna pretty much sum up
+      everything which
+      could help you build trust upon us.
+      <br>
+      2077 has marked our 56 years of hardworking to lay a path a path to achieve the impossible, yes ! To conquer
+      the whole
+      universe and successfully establish an intergalactic colony .
+    </p>
+    <p style="font-size: 23px; text-align: left;font-family: century gothic;">
+      Our company has created a foundation on which the future of mankind stands upon . With us you can dream of
+      big things and not only dream about it but also make it happen .
+      Let's together design a future for mankind
+    </p>
+
+  </div>
+  <div class="ab3">
+    <center>
+      <font style="font-size: 60px;">Glances</font>
+      <hr width="45%" align="center" color="Black">
+      </hr>
+    </center>
+    <br>
+    <div class="row">
+      <div class="column">
+        <img src="img.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="img.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(3)"
+            alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ab4">
+    <a id="services"></a>
+    <center>
+      <font style="font-size: 60px; color: lightgrey;">Our Services</font>
+      <hr width="45%" align="center" color="lightgrey">
+     <br><br>
+    </center>
+    <center>
+      <table width="70%" cellpadding="20px">
+        <tr>
+          <td>
+            <div class="card">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/pb1.png" Width="85px"></center>
+                <center><h4><b>Prototype Building</b></h4></center>
+                <p><font size="2px">Not sufficient tools and equipments for your prototype ? We got you try our standardized labs</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/cs.png" Width="85px" style="border-radius: 100px;"></center>
+                <center><h4><b>Consultancy Services</b></h4></center>
+                <p><font size="2px">Struck with an issue while working on your dream project. Talk to pur experts and get a solution</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/sd.png" Width="85px"></center>
+                <center><h4><b>Skill Development </b></h4></center>
+                <p><font size="2px">Lacking few skills or want to learn new ? Join our specialised courses to learn more</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/ef.png" Width="85px"></center>
+                <center><h4><b>Exploration Funding</b></h4></center>
+                <p><font size="2px">Not enough money for making your dream project come true ? Don't worry we are here at your assistance</font></p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </div>
+  <div class="ab5">
+    <center>
+      <font style="font-size: 60px; color: black;">Features</font>
+      <hr width="25%" align="center" color="black">
+     <br><br>
+    </center>
+    <center>
+      <table width="70%" cellpadding="20px">
+        <tr>
+          <td>
+            <div class="card2">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/pb1.png" Width="85px"></center>
+                <center><h4><b>Self Sustained</b></h4></center>
+                <p><font size="2px">Produces energy almost equal to energy consumed using solar panels and peltier Slab</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card2">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/pb1.png" Width="85px"></center>
+                <center><h4><b>Fulfills Fuel Needs</b></h4></center>
+                <p><font size="2px">Production of methane and hydrogen for fuel purposes</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card2">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/pb1.png" Width="85px"></center>
+                <center><h4><b>Survival Aid</b></h4></center>
+                <p><font size="2px">Produces oxygen and water which both being most valuable resources for survival</font></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card2">
+              <img src="" style="width:100%">
+              <div class="container44">
+                <center><img src="Images/pb1.png" Width="85px"></center>
+                <center><h4><b>Analyses planet</b></h4></center>
+                <p><font size="2px">Rock, soil and gas samples helps us to estimate the age of planet and also to find the composition of elements in atmosphere and soil</font></p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </div>
+  
+  <section class="newsletter">
+
+    <div class="container1">
+
+          <div class="row">
+                <div class="col-md-12">
+                      <div class="news-data">
+                            <div class="section-subheading">
+                                  <h1 class="wow fadeInUp" style="font-weight: bold;"
+                                        data-wow-delay="0.3s">Subscribe to our
+                                        newsletter
+                                      </h1>
+                            </div>
+                            <form name="form1" action="" size="100">
+                                  <div class="input-group wow fadeInUp" data-wow-delay="0.4s">
+                                        <input type="email" id="text1" class="form-control"
+                                              placeholder="Enter your email" onfocus=this.value=''>
+                                        <span class="input-group-btn">
+                                              <!-- <button >Subscribe</button> -->
+                                             <button class="sl-btn">Subscribe</button>
+                                        </span>
+                            </form>
+                      </div>
+                </div>
+          </div>
+    </div>
+
+</div>
+
+</section>
+<div class="ab5">
+  <center>
+    <font style="font-size: 60px; color: black;">Testimonials</font>
+    <hr width="25%" align="center" color="black">
+   <br><br>
+  </center>
+  <center>
+    <table width="70%" cellpadding="20px">
+      <tr>
+        <td>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img1.jpg" alt="Avatar" style="width:100%;height:300px; border-radius: 20px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img2.jpg" alt="Avatar" style="width:100%;height:300px; border-radius: 20px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img1.jpg" alt="Avatar" style="width:100%;height:300px; border-radius: 20px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+
+        </td>
+      </tr>
+    </table>
+  </center>
+</div>
+<section class="contact" style="background-color: black; color: #fff !important; padding-top: 150px; padding-bottom: 150px;" id="contact">
+  <a id="contactus"></a>
+  <div class="container-fluid">
+
+        <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-7 section-heading wow fadeInUp" data-wow-delay="0.4s"
+                    style="color: #fff ;font-size:80px; font-weight: bold;"></div>
+        </div>
+        <center>
+          <font style="font-size: 60px; color: lightgrey;">Contact Us</font>
+          <hr width="35%" align="center" color="lightgrey">
+         <br><br>
+        </center>
+        <br>
+        <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-6">
+                    <form action="" name="contact-form" id="contact-form">
+
+                          <ul>
+
+                                <li class="wow fadeInUp" data-wow-delay="0.6s">
+                                      <div>
+                                            <input  class="textarea" type="text" name="contact-name" placeholder="Name"
+                                                  value="" required>
+                                      </div>
+                                </li>
+                                <br>
+                                <li class="wow fadeInUp" data-wow-delay="0.7s">
+
+                                      <div>
+                                            <input  class="textarea" type="email" name="contact-name" placeholder="E-Mail"
+                                                  value="" required>
+                                      </div>
+                                </li>
+                                <br>
+                                <li class="wow fadeInUp" data-wow-delay="0.6s">
+                                      <div>
+                                            <input  class="textarea" type="text" name="contact-name" placeholder="Subject"
+                                                  value="" required>
+                                      </div>
+                                </li>
+                                <br>
+                                <li class="wow fadeInUp" data-wow-delay="0.8s">
+
+                                      <div>
+                                            <textarea class="textarea" style="height: 120px;color: black;"
+                                                  placeholder="MESSAGE" required></textarea>
+                                      </div>
+                                </li>
+
+                          </ul>
+
+                          <button class="button2" type="submit" class="send wow fadeInUp"
+                                data-wow-delay="0.9s">
+                                Send</button>
+
+                    </form>
+                    <iframe width="528" height="459" id="gmap_canvas"
+                          src="https://maps.google.com/maps?q=sec10A%20road%20gurugram&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                          style="margin-top: -440px;margin-left: 150px;"></iframe>
+              </div>
+        </div>
+
+  </div>
+
+
+</section>
+<footer >
+  <div class="footer-distributed">
+    <hr color="white" style="  border-top: 1px solid;" width="100%">
+
+     <div class="footer-left">
+
+     <h3>es<span>pacio</span></h3>
+
+     <p class="footer-links">
+ <a href="#"><font style="font-size:20px;">Home</a>
+·
+ <a href="#"><font style="font-size:20px;">About</a>
+·
+ <a href="#"><font style="font-size:20px;">Testimonials</a>
+·
+ <a href="#"><font style="font-size:20px;">Feature & Specifications</a>
+·
+ <a href="#"><font style="font-size:20px;">Services</a>
+·
+ <a href="#"><font style="font-size:20px;">Contact</a>
+ </p>
+
+     <p class="footer-company-name">espacio &copy; 2077</p>
+     </div>
+
+     <div class="footer-center">
+     <div>
+       <i class="fa fa-map-marker"></i>
+     <p><font style="font-size:20px;"><span>Sector 10A</span> Gurugram, India</p>
+     </div>
+
+     <div>
+     <i class="fa fa-phone"></i>
+     <p><font style="font-size:20px;">+1 555 123456</p>
+     </div>
+
+     <div>
+     <i class="fa fa-envelope"></i>
+     <p><font style="font-size:20px;"><a href="mailto:support@company.com">info@espacio.com</a></p>
+     </div>
+     </div>
+
+     <div class="footer-right">
+
+     <p class="footer-company-about">
+     <span>About the company</span>
+   Llorem ipsum bKWEVWNJFKWJEFwkeNWVKwncKEVBAWK kweba
+     </p>
+
+     <div class="footer-icons">
+
+ <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+ <a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a>
+ <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+ <a href="https://github.com/"><i class="fa fa-github"></i></a>
+
+     </div>
+
+     </div>
+
+   </footer>
+   <a href="#nav"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></a>
+
+
+   <button class="open-button" onclick="openForm()"><img src="download2.png" style="height: 65px;width: 65px; margin-right:60px;"></button>
+
+   <div class="chat-popup" id="myForm">
+     <form  class="form-container" >
+       <h2  class="tii">espacio Support</h2>
+   
+       <label for="msg" style = "color :white;font-family: ubuntu;margin-bottom: 10px;
+   
+   "><b>Type Your Query</b></label>
+       <textarea placeholder="Type message.." name="msg" style="font-family: Dosis;
+   
+   "required></textarea>
+   
+       <button type="submit" class="btn" onclick="sd()">Send</button>
+       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+     </form>
+               </div>
+   
+         </div>
+    <script>
+            function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+function sd(){
+      alert("We Will reply soon.");
+}
+    </script>
+</body>
+
+
+<script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
+
+
+
+
+
+
+  var myNav = document.getElementById('mynav');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+        myNav.classList.remove("nav-transparent");
+        myNav.classList.add("nav-colored");
+    } 
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
+
+var preloader = document.getElementById('loading');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+</script>
+
+</html>
