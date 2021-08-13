@@ -11,12 +11,14 @@ html, body {
   margin: 0 auto;
   padding: 15px;
   display: flex;
+  width: 100%;
 }
 
 /* Columns */
 .left-column {
-  width: 65%;
+  width: 60%;
   position: relative;
+  margin-top: 180px;
 }
 
 .right-column {
@@ -27,7 +29,8 @@ html, body {
 
 /* Left Column */
 .left-column img {
-  width: 100%;
+  width: 90%;
+  height: 65%;
   position: absolute;
   left: 0;
   top: 0;

@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
+ 
   #loading{
     width: 100%;
     height: 100vh;
@@ -46,9 +47,9 @@ html {
         background-image: url('Images/.jpg');
         background-size: 1400px 300px;
         border-width: 100%;
-        color: black;
+        color: lightgrey;
         background-repeat: no-repeat;
-        background-color: lightgrey;
+        background-color: black;
       }
   
       html, body {
@@ -57,7 +58,7 @@ html {
     }
       body {
         margin: 0px;
-        background-image: url('bg2.jpeg');
+        background-image: url('bg4.jpeg');
         font-family: Poppins, sans-serif;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -74,6 +75,10 @@ html {
         padding-top: 30px;
         padding-bottom: 40px;
         position: fixed ;
+        z-index: 999;
+        height: 150px;
+        transition: 0.5s;
+        
       }
       .nav-transparent{
         background-color: transparent;
@@ -82,7 +87,7 @@ html {
       }
       .nav-colored{
         background-color: black;
-
+        box-shadow: 0 8px 6px -6px black;
       }
 
 
@@ -93,13 +98,13 @@ html {
         padding-left: 50px;
         font-size: 28px;
         padding-top: 0px;
+        float: left;
       }
   
       .nav-tabs {
         text-align: center;
-        padding: 240px;
-        padding-left: 160px;
-      
+      float: left;
+      margin-top: 30px;
       }
   
       .nav-link {
@@ -116,6 +121,9 @@ html {
         padding: 20px;
         background-color: blueviolet;
         border-radius: 80px;
+        float: right;
+        margin-right: 50px;
+        margin-top: 10px;
       }
   
       .nav-btn:hover {
@@ -163,7 +171,7 @@ html {
       .modal {
         display: none;
         position: fixed;
-        z-index: 1;
+        z-index: 1000;
         padding-top: 100px;
         left: 0;
         top: 0;
@@ -284,7 +292,7 @@ html {
       }
   
       .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.8);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
       }
       .card2 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
@@ -305,7 +313,7 @@ html {
       }
   
       .ab4 {
-        background-color: black;
+        background-color: lightgrey;
         padding-top: 115px;
         padding-bottom: 115px;
       }
@@ -316,6 +324,11 @@ html {
       }
       .ab6 {
         background-color: black;
+        padding-top: 115px;
+        padding-bottom: 115px;
+      }
+      .ab7 {
+        background-color:lightgrey;
         padding-top: 115px;
         padding-bottom: 115px;
       }
@@ -724,10 +737,9 @@ html {
 
 
 .flip-card {
-  position: ;
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 250px;
   perspective: 1000px;
   border-radius: 20px;
 }
