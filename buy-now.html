@@ -31,7 +31,7 @@
         <a href="Home.html#contactus" class="nav-link">CONTACT US</a>
       </span>
       <span>
-        <button class="nav-btn" onclick="window.location.href ='buy-now.html';">BUY NOW</button>
+        <a href="buy-now.html"<button class="btnf secondf">Buy Now</button></a>
       </span>
     </nav>
     <main class="container">
@@ -109,13 +109,13 @@
               <b>Medium :-</b>300cm*80cm*65cm<br><br>
               <b>Large :-</b>400cm*100cm*90cm<br><br></font></div>
 
-            
+
           </div>
         </div>
         <!-- Product Pricing -->
         <div class="product-price">
           <span><b>69999$</b></span>
-          <a href="#" class="cart-btn">Add to cart</a>
+          <a href="#" class="cart-btn" onClick="addtocart()">Add to cart</a>
         </div>
       </div>
     </main>
@@ -127,11 +127,11 @@
     <footer>
       <div class="footer-distributed">
         <hr color="white" style="  border-top: 1px solid;" width="100%">
-  
+
         <div class="footer-left">
-  
+
           <h3><img src="logoweb.png" width="170px" width="70px"></h3>
-  
+
           <p class="footer-links">
             <a href="#">
               <font style="font-size:20px;">Home
@@ -157,10 +157,10 @@
               <font style="font-size:20px;">Contact
             </a>
           </p>
-  
+
           <p class="footer-company-name">espacio &copy; 2077</p>
         </div>
-  
+
         <div class="footer-center">
           <div>
             <i><img src="location.PNG"></i>
@@ -168,14 +168,14 @@
               <font style="font-size:15px;"><span></span> Begaluru, India
             </p>
           </div>
-  
+
           <div>
             <i><img src="contact.PNG"></i>
             <p>
               <font style="font-size:15px;">+1 555 123456
             </p>
           </div>
-  
+
           <div>
             <i><img src="mail.PNG"></i>
             <p>
@@ -183,34 +183,37 @@
             </p>
           </div>
         </div>
-  
+
         <div class="footer-right">
-  
+
           <p class="footer-company-about">
             <span>About the company</span>
             We are coders, scholars , graphic designers and a bunch of space nerds .<br>
             Since 2021,<br>
             We have an immense experience in the field if pioneering , building prototypes and funding space exploration
           </p>
-  
+
           <div class="footer-icons">
-  
+
             <a href="https://www.facebook.com/"><img src="fb.PNG"></a>&nbsp
             <a href="https://twitter.com/login?lang=en"><img src="twitter.PNG" ></a>
             <a href="https://in.linkedin.com/"><img src="linkedin.PNG"></a>
             <a href="https://github.com/"><img src="github.PNG"></a>
-  
+
           </div>
-  
+
         </div>
-  
+
     </footer>
-   
+
   </body>
   <script>
     var preloader = document.getElementById('loading');
 function myFunction(){
   preloader.style.display = 'none';
+}
+function addtocart(){
+  alert("Thank you for choosing salvador by espacio.");
 }
   </script>
 </html>

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Changa+One&family=Lobster&family=Patua+One&family=Squada+One&family=Style+Script&display=swap');
+
+
+
 html {
     scroll-behavior: smooth;
   }
- 
+
   #loading{
     width: 100%;
     height: 100vh;
@@ -22,9 +26,9 @@ html {
         color: black;
         background-repeat: no-repeat;
         background-color: lightgrey;
-  
+
       }
-  
+
       .ab2 {
         padding-left: 240px;
         padding-right: 240px;
@@ -36,9 +40,9 @@ html {
         color: lightgrey;
         background-repeat: no-repeat;
         background-color: black;
-  
+
       }
-  
+
       .ab3 {
         padding-left: 140px;
         padding-right: 140px;
@@ -51,7 +55,7 @@ html {
         background-repeat: no-repeat;
         background-color: black;
       }
-  
+
       html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -63,11 +67,11 @@ html {
         background-repeat: no-repeat;
         background-size: 100%;
       }
-  
+
       a {
         text-decoration: none;
       }
-  
+
       nav {
 
         width: 100%;
@@ -78,7 +82,7 @@ html {
         z-index: 999;
         height: 150px;
         transition: 0.5s;
-        
+
       }
       .nav-transparent{
         background-color: transparent;
@@ -100,22 +104,27 @@ html {
         padding-top: 0px;
         float: left;
       }
-  
+
       .nav-tabs {
         text-align: center;
       float: left;
+      margin: auto;
+      margin-left: 200px;
       margin-top: 30px;
       }
-  
+
       .nav-link {
         padding: 20px;
-        color: lightgrey;
+        color: #fff;
+        font-family: 'Changa One', cursive;
+        font-size: 20px;
+
       }
-  
+
       .nav-link:hover {
-        color: darkgrey;
+        color:   #e6e6e6;
       }
-  
+
       .nav-btn {
         text-align: right;
         padding: 20px;
@@ -125,20 +134,25 @@ html {
         margin-right: 50px;
         margin-top: 10px;
       }
-  
+
       .nav-btn:hover {
         background-color: cadetblue;
         transition-delay: 0.15s;
         transition-duration: 0.15s;
       }
-  
+
       .cover-heading {
         text-align: center;
         color: lightgrey;
         font-size: 60px;
         margin-top: 100px;
       }
-  
+      .cover-heading h1{
+        font-family: 'Carter One', cursive;
+        color: #fff;
+        text-shadow:0 0 5px #fff, 0 0 150px #0ff;
+      }
+
       .parallax {
         background-image: url("Images/bg1.jpg");
         min-height: 300px;
@@ -148,26 +162,26 @@ html {
         background-size: cover;
         max-width: 100%;
       }
-  
+
       * {
         box-sizing: border-box;
       }
-  
+
       .row>.column {
         padding: 0 8px;
       }
-  
+
       .row:after {
         content: "";
         display: table;
         clear: both;
       }
-  
+
       .column {
         float: left;
         width: 25%;
       }
-  
+
       /* The Modal (background) */
       .modal {
         display: none;
@@ -181,7 +195,7 @@ html {
         overflow: auto;
         background-color: black;
       }
-  
+
       /* Modal Content */
       .modal-content {
         position: relative;
@@ -191,7 +205,7 @@ html {
         width: 90%;
         max-width: 1200px;
       }
-  
+
       /* The Close Button */
       .close {
         color: white;
@@ -201,22 +215,22 @@ html {
         font-size: 35px;
         font-weight: bold;
       }
-  
+
       .close:hover,
       .close:focus {
         color: #999;
         text-decoration: none;
         cursor: pointer;
       }
-  
+
       .mySlides {
         display: none;
       }
-  
+
       .cursor {
         cursor: pointer;
       }
-  
+
       /* Next & previous buttons */
       .prev,
       .next {
@@ -234,19 +248,19 @@ html {
         user-select: none;
         -webkit-user-select: none;
       }
-  
+
       /* Position the "next button" to the right */
       .next {
         right: 0;
         border-radius: 3px 0 0 3px;
       }
-  
+
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover,
       .next:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
-  
+
       /* Number text (1/3 etc) */
       .numbertext {
         color: #f2f2f2;
@@ -255,35 +269,35 @@ html {
         position: absolute;
         top: 0;
       }
-  
+
       img {
         margin-bottom: -4px;
       }
-  
+
       .caption-container {
         text-align: center;
         background-color: black;
         padding: 2px 16px;
         color: white;
       }
-  
+
       .demo {
         opacity: 0.6;
       }
-  
+
       .active,
       .demo:hover {
         opacity: 1;
       }
-  
+
       img.hover-shadow {
         transition: 0.3s;
       }
-  
+
       .hover-shadow:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
-  
+
       .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
         transition: 0.3s;
@@ -291,7 +305,7 @@ html {
         background-color: lightgrey;
         border-radius: 10px;
       }
-  
+
       .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
       }
@@ -300,19 +314,19 @@ html {
         transition: 0.3s;
         width: 100%;
         background-color: lightgrey;
-        
+
       }
-  
+
       .card2:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
       }
-  
+
       .container44 {
         padding: 2px 16px;
         height: 290px;
         width: 250px;
       }
-  
+
       .ab4 {
         background-color: lightgrey;
         padding-top: 115px;
@@ -338,35 +352,77 @@ html {
         background: #161616;
         font-family: century gothic;
   }
-  
+
   .newsletter .news-data {
         max-width: 650px;
         margin: 0 auto;
         text-align: center;
         position: relative;
   }
-  
+
   .newsletter h1 {
         color: #fff;
         margin-bottom: 40px;
   }
-  
+
   .newsletter .form-control {
         height: 50px;
         border-color: #fff;
         border-radius: 0 !important;width: 500px;
   }
-  
+
   .form-control:focus {
         box-shadow: none !important;
         border: none !important;
   }
-  
+
   ::placeholder {
         letter-spacing: 0px;
         font-family: century gothic;
   }
-  
+  .btnf {
+    height: 50px;
+    width: 140px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding: 1em 1.7em;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .btnf:hover, .btnf:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .secondf {
+    border-radius: 3em;
+    border-color: darkblue;
+    color: #fff;
+    background-image: linear-gradient(to right, blueviolet, blueviolet 5%, darkblue 5%, darkblue 10%, blueviolet 10%, blueviolet 15%, darkblue 15%, darkblue 20%, blueviolet 20%, blueviolet 25%, darkblue 25%, darkblue 30%, blueviolet 30%, blueviolet 35%, darkblue 35%, darkblue 40%, blueviolet 40%, blueviolet 45%, darkblue 45%, darkblue 50%, blueviolet 50%, blueviolet 55%, darkblue 55%, darkblue 60%, blueviolet 60%, blueviolet 65%, darkblue 65%, darkblue 70%, blueviolet 70%, blueviolet 75%, darkblue 75%, darkblue 80%, blueviolet 80%, blueviolet 85%, darkblue 85%, darkblue 90%, blueviolet 90%, blueviolet 95%, darkblue 95%, darkblue 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    transition: background 300ms ease-in-out;
+  }
+  .secondf:hover {
+    background-position: 100px;
+  }
+
   .newsletter .btn {
         min-height: 50px;
         padding:  10px;
@@ -377,13 +433,13 @@ html {
         color: white;
         border-radius: 0px;
   }
-  
+
   .newsletter .btn:hover {
         color: #bfbfbf;
         border-color:white;
   }
   .row {margin: 0 -5px;}
-  
+
   .row:after {
     content: "";
     display: table;
@@ -396,23 +452,23 @@ html {
     background-color: lightgrey;
   }
   /*--------------- contact section starts here --------------- */
-  
+
   #contact-form {
         margin-left: 800px ;
         width: 35px;
   }
-  
+
   .contact .icon-title {
         margin-top: -20px;
         color: #000;
   }
-  
+
   #contact-form ul {
         list-style: none;
         margin-bottom: 66px;
         border-radius: 0;
   }
-  
+
   #contact-form li:last-of-type {
         border-bottom: none;
   }
@@ -438,7 +494,7 @@ html {
   }
   .button2{
         background-color:black;
-        color: white; 
+        color: white;
         width: 150px;
         height: 55px;
         padding: 15px ;
@@ -450,7 +506,7 @@ html {
         padding: 0px;
         margin-left:205px;
         margin-top: -100px;
-  }  
+  }
   .button2:hover {
         color: #bfbfbf;
         border-color:#bfbfbf;
@@ -474,59 +530,59 @@ html {
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-  
+
     padding: 50px 30px;
     margin-top: 00px;
   }
-  
+
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right{
     display: inline-block;
     vertical-align: top;
   }
-  
+
   .footer-distributed .footer-left{
     width: 35%;
     margin-right: 20px;
   }
-  
+
   .footer-distributed h3{
     color:  #ffffff;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
   }
-  
+
   .footer-distributed h3 span{
     color:  #5383d3;
   }
-  
-  
+
+
   .footer-distributed .footer-links{
     color:  #ffffff;
     margin: 20px 0 12px;
     padding: 0;
   }
-  
+
   .footer-distributed .footer-links a{
     display:inline-block;
     line-height: 1.8;
     text-decoration: none;
     color:  inherit;
   }
-  
+
   .footer-distributed .footer-company-name{
     color:  #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
   }
-  
-  
+
+
   .footer-distributed .footer-center{
     width: 30%;
   }
-  
+
   .footer-distributed .footer-center i{
     background-color:  #33383b;
     color: #ffffff;
@@ -539,37 +595,37 @@ html {
     margin: 10px 15px;
     vertical-align: middle;
   }
-  
+
   .footer-distributed .footer-center i{
     font-size: 17px;
     line-height: 38px;
     margin-top: 20px;
   }
-  
+
   .footer-distributed .footer-center p{
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
     margin:0;
   }
-  
+
   .footer-distributed .footer-center p span{
     display:block;
     font-weight: normal;
     font-size:14px;
     line-height:2;
   }
-  
+
   .footer-distributed .footer-center p a{
     color:  #5383d3;
     text-decoration: none;;
   }
-  
+
   .footer-distributed .footer-right{
     width: 28%;
     margin-left: -10px;
   }
-  
+
   .footer-distributed .footer-company-about{
     line-height: 20px;
     color:  #92999f;
@@ -577,7 +633,7 @@ html {
     font-weight: normal;
     margin-left: -30px;
   }
-  
+
   .footer-distributed .footer-company-about span{
     display: block;
     color:  #ffffff;
@@ -586,11 +642,11 @@ html {
     margin-bottom: 20px;
     padding-left: 0px;
   }
-  
+
   .footer-distributed .footer-icons{
     margin-top: 25px;
   }
-  
+
   .footer-distributed .footer-icons a{
     display: inline-block;
     width: 35px;
@@ -598,24 +654,24 @@ html {
     cursor: pointer;
     background-color:  #33383b;
     border-radius: 20px;
-  
+
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-  
+
     margin-right: 3px;
     margin-bottom: 5px;
   }
-  
-  
+
+
   @media (max-width: 880px) {
-  
+
     .footer-distributed{
       font: bold 14px sans-serif;
-  
+
     }
-  
+
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right{
@@ -624,7 +680,7 @@ html {
       margin-bottom: 40px;
       text-align: center;
     }
-  
+
     .footer-distributed .footer-center i{
       margin-left: 0;
     }
@@ -632,11 +688,11 @@ html {
       line-height: normal;
       font-size: auto;
     }
-  
+
   }
 
 
-  
+
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
 	background-color: transparent;
@@ -695,7 +751,7 @@ html {
   opacity: 0.8;
   font-family: Century Gothic;
   font-size: 20px;
-  
+
 }
 
 /* Add a red background color to the cancel button */
@@ -716,7 +772,7 @@ html {
 	font-family: forte;
 	font-size: 30px;
 }
-  
+
 
 
 #myBtn {
@@ -738,7 +794,7 @@ html {
 #myBtn:hover {
   background-color: #555;
 }
-  
+
 
 
 .flip-card {
@@ -785,6 +841,3 @@ html {
   color: black;
   transform: rotateY(180deg);
 }
-
-
-
