@@ -1,4 +1,4 @@
-# espacio-official.github.io #
+
 **Name of the School:** 
  Lions Public School
 
